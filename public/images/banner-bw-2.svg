@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Black and white banner">
+  <rect width="600" height="600" rx="56" fill="#0a0a0a"/>
+  <circle cx="470" cy="150" r="150" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="510" cy="210" r="96" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="64" y="150" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="800" fill="#e5e5e5">First order discount</text>
+  <text x="64" y="250" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="92" font-weight="900" fill="#ffffff">30%</text>
+  <text x="64" y="314" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="800" letter-spacing="3" fill="#a3a3a3">USE CODE: PANDORA30</text>
+  <rect x="64" y="376" width="186" height="54" rx="27" fill="#ffffff"/>
+  <text x="157" y="412" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" font-weight="900" letter-spacing="3" fill="#000000">SHOP NOW</text>
+</svg>

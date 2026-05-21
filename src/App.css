@@ -1,0 +1,150 @@
+/* Pharmacy app - Moving Medicine style + Light Blue palette */
+
+/* Buttons */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-white shadow-sm transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-black/20 focus:ring-offset-2 focus:ring-offset-white;
+}
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-black/15 bg-white px-6 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-black transition hover:bg-neutral-50 focus:outline-none;
+}
+.btn-mini {
+  @apply inline-flex items-center justify-center rounded-full border border-black/15 bg-white px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-black transition hover:bg-neutral-50 focus:outline-none;
+}
+
+/* Cards */
+.glass-panel {
+  @apply rounded-2xl border border-black/10 bg-white shadow-sm;
+}
+
+/* Page layout helpers */
+.page-container {
+  @apply mx-auto w-full max-w-7xl px-4 py-10 md:px-6;
+}
+.page-title {
+  @apply text-2xl font-semibold text-black;
+}
+.page-subtitle {
+  @apply mt-1 text-sm text-neutral-600;
+}
+.panel {
+  @apply rounded-2xl border border-black/10 bg-white shadow-sm;
+}
+.panel-muted {
+  @apply rounded-2xl border border-black/10 bg-neutral-50 shadow-sm;
+}
+.input {
+  @apply w-full rounded-lg border border-black/10 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black/30 focus:outline-none focus:ring-1 focus:ring-black/10;
+}
+.hint {
+  @apply text-[11px] text-neutral-500;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Home page animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes rise3d {
+  from {
+    opacity: 0;
+    transform: perspective(1000px) translateY(44px) rotateX(10deg);
+    filter: blur(0.2px);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(1000px) translateY(0) rotateX(0deg);
+    filter: blur(0px);
+  }
+}
+@keyframes venomPop {
+  0% {
+    opacity: 0;
+    transform: perspective(900px) translateY(18px) rotateX(10deg) scale(0.92);
+    filter: blur(0.4px);
+  }
+  55% {
+    opacity: 1;
+    transform: perspective(900px) translateY(-6px) rotateX(0deg) scale(1.06);
+    filter: blur(0px);
+  }
+  72% {
+    transform: perspective(900px) translateY(2px) rotateX(0deg) scale(0.985) rotateZ(-0.6deg);
+  }
+  86% {
+    transform: perspective(900px) translateY(0px) rotateX(0deg) scale(1.01) rotateZ(0.6deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(900px) translateY(0px) rotateX(0deg) scale(1) rotateZ(0deg);
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.animate-rise-3d {
+  opacity: 0;
+  transform-origin: center bottom;
+  will-change: transform, opacity;
+  animation: rise3d 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.animate-rise-3d-delay-1 {
+  animation-delay: 0.1s;
+}
+.animate-rise-3d-delay-2 {
+  animation-delay: 0.45s;
+}
+.animate-rise-3d-delay-3 {
+  animation-delay: 0.8s;
+}
+.animate-venom-pop {
+  opacity: 0;
+  transform-origin: center bottom;
+  will-change: transform, opacity, filter;
+  animation: venomPop 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.home-hero-delay-1 { animation-delay: 0.1s; opacity: 0; }
+.home-hero-delay-2 { animation-delay: 0.25s; opacity: 0; }
+.home-hero-delay-3 { animation-delay: 0.4s; opacity: 0; }
+.card-hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+.banner-hover-scale {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.banner-hover-scale:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Collection card">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#191919"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="56" fill="url(#g)"/>
+  <rect x="44" y="44" width="712" height="712" rx="48" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M120 600c110-170 230-250 360-250s250 80 360 250" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="10"/>
+  <text x="72" y="132" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20" font-weight="900" letter-spacing="4" fill="#a3a3a3">COLLECTION</text>
+  <text x="72" y="206" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="70" font-weight="900" fill="#ffffff">Monochrome</text>
+  <rect x="72" y="664" width="132" height="44" rx="22" fill="#ef4444"/>
+  <text x="138" y="694" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" font-weight="900" letter-spacing="2" fill="#ffffff">NEW</text>
+</svg>

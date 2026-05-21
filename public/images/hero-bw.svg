@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Black and white hero">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#000000" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#fade)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+
+  <!-- Minimal product silhouette -->
+  <g transform="translate(640 120)">
+    <path d="M120 46c64 0 110 44 110 110v118c0 50-18 95-52 130l-38 40c-26 28-60 42-100 42s-74-14-100-42l-38-40c-34-35-52-80-52-130V156C-150 90-104 46-40 46h160Z"
+          fill="#000000" fill-opacity="0.04" stroke="#000000" stroke-opacity="0.08" stroke-width="2"/>
+    <path d="M-68 222c52-30 122-45 208-45s156 15 208 45" fill="none" stroke="#000000" stroke-opacity="0.10" stroke-width="3"/>
+    <path d="M-86 338c66-34 154-52 254-52s188 18 254 52" fill="none" stroke="#000000" stroke-opacity="0.06" stroke-width="3"/>
+  </g>
+
+  <!-- Brand -->
+  <g transform="translate(72 92)">
+    <circle cx="34" cy="34" r="34" fill="#000000"/>
+    <text x="34" y="44" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" font-weight="800" fill="#ffffff">P</text>
+    <text x="92" y="44" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="26" font-weight="800" letter-spacing="10" fill="#000000">PANDORA</text>
+    <text x="92" y="74" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12" font-weight="700" letter-spacing="4" fill="#525252">MINIMAL " BLACK &amp; WHITE</text>
+  </g>
+
+  <!-- Accent card -->
+  <g transform="translate(72 650)">
+    <rect x="0" y="0" width="420" height="150" rx="28" fill="#ffffff" stroke="#000000" stroke-opacity="0.10"/>
+    <text x="28" y="56" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12" font-weight="800" letter-spacing="3" fill="#737373">NEW DROP</text>
+    <text x="28" y="98" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" font-weight="900" fill="#000000">Hoodies &amp; Jackets</text>
+    <text x="28" y="126" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" fill="#525252">Clean cuts. Premium fabric.</text>
+  </g>
+</svg>

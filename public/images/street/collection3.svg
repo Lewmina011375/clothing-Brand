@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Collection card">
+  <rect width="800" height="800" rx="56" fill="#0a0a0a"/>
+  <rect x="56" y="56" width="688" height="688" rx="48" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+  <g opacity="0.16">
+    <text x="64" y="520" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="180" font-weight="900" fill="#ffffff">DROP</text>
+  </g>
+  <text x="72" y="132" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20" font-weight="900" letter-spacing="4" fill="#a3a3a3">COLLECTION</text>
+  <text x="72" y="206" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="70" font-weight="900" fill="#ffffff">Jackets</text>
+  <text x="72" y="256" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22" font-weight="700" fill="#d4d4d4">Layer. Repeat.</text>
+  <rect x="72" y="664" width="210" height="44" rx="22" fill="#ef4444"/>
+  <text x="177" y="694" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" font-weight="900" letter-spacing="2" fill="#ffffff">SHOP</text>
+</svg>

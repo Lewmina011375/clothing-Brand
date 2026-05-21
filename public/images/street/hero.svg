@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Streetwear hero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2a2a"/>
+      <stop offset="1" stop-color="#141414"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <!-- big type ghost -->
+  <g opacity="0.14">
+    <text x="120" y="360" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="240" font-weight="900" letter-spacing="-6" fill="#ffffff">PANDORA</text>
+  </g>
+
+  <!-- abstract shapes -->
+  <path d="M0 520c220-120 420-150 600-90s360 70 540 30 330-30 460 30v410H0V520Z" fill="#ffffff" fill-opacity="0.06"/>
+  <path d="M0 600c240-90 450-105 630-45s360 70 540 35 310-25 430 35v310H0V600Z" fill="#ffffff" fill-opacity="0.04"/>
+
+  <!-- model silhouette -->
+  <g transform="translate(380 260)">
+    <path d="M140 36c54 0 96 42 96 96v70c0 52-20 96-54 130l-18 18c-26 26-58 40-96 40s-70-14-96-40l-18-18c-34-34-54-78-54-130v-70c0-54 42-96 96-96h148Z"
+          fill="#000000" fill-opacity="0.35" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+    <path d="M48 156c48-26 110-38 186-38s138 12 186 38" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="4"/>
+  </g>
+
+  <!-- card strip -->
+  <g transform="translate(980 600)">
+    <rect x="0" y="0" width="180" height="180" rx="34" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.10"/>
+    <rect x="210" y="0" width="180" height="180" rx="34" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.10"/>
+    <rect x="420" y="0" width="180" height="180" rx="34" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.10"/>
+    <circle cx="90" cy="86" r="56" fill="#000000" fill-opacity="0.35"/>
+    <circle cx="300" cy="86" r="56" fill="#000000" fill-opacity="0.35"/>
+    <circle cx="510" cy="86" r="56" fill="#000000" fill-opacity="0.35"/>
+    <path d="M70 120c30-22 60-22 90 0" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="3"/>
+    <path d="M280 120c30-22 60-22 90 0" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="3"/>
+    <path d="M490 120c30-22 60-22 90 0" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="3"/>
+  </g>
+
+  <!-- red accent pill -->
+  <g transform="translate(860 420)">
+    <rect x="0" y="0" width="220" height="64" rx="32" fill="#ef4444" filter="url(#soft)" opacity="0.35"/>
+    <rect x="0" y="0" width="220" height="64" rx="32" fill="#ef4444"/>
+    <text x="110" y="41" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="900" letter-spacing="3" fill="#ffffff">SHOP DROP</text>
+  </g>
+</svg>
